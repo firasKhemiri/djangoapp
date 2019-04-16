@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'rest_framework_social_oauth2',
     'rest_framework',
     'push_notifications',
+
 ]
 
 MIDDLEWARE = [
