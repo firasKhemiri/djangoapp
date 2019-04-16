@@ -1,7 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="466aa2af-dbe1-4cb8-a47f-0f0621825774" name="Default Changelist" comment="" />
+    <list default="true" id="466aa2af-dbe1-4cb8-a47f-0f0621825774" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/customUser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0002_user_friends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0003_auto_20170810_2028.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0004_auto_20170810_2108.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0005_user_fld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0006_remove_user_fld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0007_auto_20170814_0142.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0008_auto_20170814_1515.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0009_auto_20170814_1519.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0010_auto_20170814_1520.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0011_auto_20170815_1445.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0012_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0013_auto_20170815_2104.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0014_auto_20170815_2245.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0015_auto_20170815_2248.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0016_auto_20170815_2254.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0017_auto_20170815_2306.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0018_auto_20170815_2307.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0019_auto_20170815_2309.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0020_auto_20170815_2315.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0021_auto_20170815_2318.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0022_auto_20170815_2323.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0023_auto_20170815_2327.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0024_auto_20170815_2332.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0025_auto_20170815_2336.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0026_auto_20170816_0021.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0027_auto_20170816_0026.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0028_auto_20170816_0027.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0029_auto_20170816_0035.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0030_auto_20170816_0036.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0031_auto_20170816_0040.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0032_auto_20170816_0042.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0033_auto_20170816_0043.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0034_auto_20170816_0101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0035_auto_20170816_0104.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0036_auto_20170818_0103.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0037_remove_user_is_student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0038_auto_20170818_0210.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0039_auto_20170818_0219.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0040_auto_20170818_1224.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0041_auto_20170818_1506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0042_conversation_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0043_auto_20170819_2059.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0044_auto_20170819_2116.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0045_auto_20170820_1400.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0046_auto_20170820_1401.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0047_auto_20170820_1402.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0048_message_seen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0049_auto_20170821_1456.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0050_auto_20170822_1347.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0051_auto_20170822_1512.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0052_auto_20170823_1453.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0053_notification_students.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0054_auto_20170824_1304.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0055_auto_20170824_1531.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0056_auto_20170825_1446.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0057_auto_20170825_1446.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0058_schedule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0059_fileupload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0060_auto_20170826_1330.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0061_auto_20170826_1332.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0062_courses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0063_auto_20170826_2106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0064_auto_20170827_1430.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0065_auto_20170827_1540.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0066_auto_20170827_1541.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0067_auto_20170830_1424.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0068_user_is_social.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0069_auto_20170907_1247.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0070_remove_poststat_is_liked.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0071_auto_20170907_1859.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0072_auto_20170908_1856.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0073_auto_20170911_1528.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0074_auto_20170925_1739.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0075_user_is_professor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0076_auto_20170926_2101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0077_auto_20170926_2116.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0078_auto_20170927_1042.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0079_auto_20170927_1046.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0080_auto_20170929_2005.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0081_auto_20171001_1555.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0082_auto_20171003_1950.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0083_auto_20171003_1955.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0084_remove_event_participants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0085_event_participants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0086_auto_20171003_1958.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0087_auto_20171003_1958.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0088_auto_20171003_2000.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0089_auto_20171003_2001.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0090_event_location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0091_remove_schedule_departement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0092_auto_20171004_0613.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0093_auto_20171004_0616.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0094_auto_20171014_1300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0095_auto_20171014_1301.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0096_user_phone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0097_auto_20171015_1236.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0098_auto_20171015_1238.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0099_auto_20171015_1239.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0100_auto_20171015_1243.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0101_user_first_social.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0102_auto_20171019_0235.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0103_auto_20171019_0235.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0104_auto_20171019_0411.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0105_notification_seen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0106_remove_notification_seen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0107_notification_seen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0108_auto_20180128_0020.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0109_auto_20180203_1158.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0110_auto_20181125_2131.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0111_auto_20181126_0245.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0112_auto_20181126_0250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0113_auto_20181126_0300.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0114_auto_20181126_2314.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0115_classe_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0116_auto_20181127_0004.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0117_remove_classe_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0118_classe_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0119_auto_20181127_0012.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0120_remove_classe_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0121_classe_year.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0122_user_belongsto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0123_remove_user_belongsto.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0124_auto_20181129_1542.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0125_auto_20181129_1604.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0126_auto_20181129_1607.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0127_auto_20181203_2101.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0128_auto_20181212_1152.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0129_auto_20181213_2141.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0130_auto_20181213_2142.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0131_auto_20181225_1411.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0132_auto_20181225_1522.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0133_auto_20181225_1524.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0134_auto_20181225_1526.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0135_auto_20181225_1528.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/paginator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +161,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor" />
@@ -21,17 +170,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customUser/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/customUser/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -40,6 +205,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/requirements.txt" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
@@ -52,6 +224,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -62,13 +235,17 @@
             <path>
               <item name="djangoapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="djangoapp" type="462c0819:PsiDirectoryNode" />
+              <item name="customUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="djangoapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="djangoapp" type="462c0819:PsiDirectoryNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -77,6 +254,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Firas\PycharmProjects\azureproj\djangoapp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,26 +308,19 @@
       <option name="presentableId" value="Default" />
       <updated>1555446477943</updated>
       <workItem from="1555446495714" duration="1657000" />
+      <workItem from="1555448394560" duration="985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1657000" />
+    <option name="totallyTimeSpent" value="2642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@djangoapp" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -153,13 +328,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="manage.py@djangoapp" order="9" sideWeight="0.49932885" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,15 +353,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="306">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customUser/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customUser/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
