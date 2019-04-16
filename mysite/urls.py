@@ -15,13 +15,13 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import include
+# from django.urls import include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
-    url(r'^auth/', include('rest_framework_social_oauth2.urls')),
-
-    url(r'^api/', include('customUser.urls')),  # Add this line
+    # url(r'^auth/', include('rest_framework_social_oauth2.urls')),
+    #
+    # url(r'^api/', include('customUser.urls')),  # Add this line
 
 ]
