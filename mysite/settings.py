@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'customUser',
+    # 'customUser',
 
     'oauth2_provider',
     'social_django',
@@ -143,7 +143,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 
-AUTH_USER_MODEL = 'customUser.User'
+# AUTH_USER_MODEL = 'customUser.User'
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
