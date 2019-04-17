@@ -1,5 +1,4 @@
 from django.contrib import admin
-from push_notifications.models import GCMDevice
 
 from customUser.models import User, PostStat, Commentaire, Message, Conversation, Category, Event, Notification, \
     Suggest, Courses, Department, Schedule, Pending, Classe, Branch

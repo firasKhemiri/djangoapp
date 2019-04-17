@@ -45,10 +45,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # 'customUser',
-    #
-    # 'oauth2_provider',
-    # 'social_django',
+    'customUser',
+
+    'oauth2_provider',
+    'social_django',
     'rest_framework_social_oauth2',
     'rest_framework',
     # 'push_notifications',
@@ -101,7 +101,7 @@ DATABASES = {
         # 'PORT': '5432',
 
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db1.sqlite3'),
     }
 }
 
@@ -143,7 +143,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 
-# AUTH_USER_MODEL = 'customUser.User'
+AUTH_USER_MODEL = 'customUser.User'
 
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
@@ -188,17 +188,17 @@ SOCIAL_AUTH_PIPELINE = (
 
 )
 
-PUSH_NOTIFICATIONS_SETTINGS = {
-
-        "CONFIG": "push_notifications.conf.AppConfig",
-
-        "APPLICATIONS": {
-        "my_fcm_app": {
-
-            "PLATFORM": "FCM",
-     #       "API_KEY": "AAAATEh95aA:APA91bGraYQ_U_SfJz9gMo6Ki453ziln07_F7novLo2H0XnoILe_Ezd4_5rLQe_vsGBLymSZnoDsZfPiaXI6Orr7_rY0KvzqKPJOXbYziicitvqlvtNAGGapaHkAf2eWEjfSK_0WbQWL",
-
-            "API_KEY": "AAAATEh95aA:APA91bFCRGHnDXR8KXvsXLSK03v3qkU7mXZgPYFHCXbtVvTQMUwCd-w3O6k-5040PJ7CVnB368WG91Fdwx2Ts26jyjlo7ctzM9ItYTnIdi6-p85vxHCFhH-pnui5vLct4ma6jXovJd8S",
-            "MAX_RECIPIENTS":1000,},
-        }
-}
+# PUSH_NOTIFICATIONS_SETTINGS = {
+#
+#         "CONFIG": "push_notifications.conf.AppConfig",
+#
+#         "APPLICATIONS": {
+#         "my_fcm_app": {
+#
+#             "PLATFORM": "FCM",
+#      #       "API_KEY": "AAAATEh95aA:APA91bGraYQ_U_SfJz9gMo6Ki453ziln07_F7novLo2H0XnoILe_Ezd4_5rLQe_vsGBLymSZnoDsZfPiaXI6Orr7_rY0KvzqKPJOXbYziicitvqlvtNAGGapaHkAf2eWEjfSK_0WbQWL",
+#
+#             "API_KEY": "AAAATEh95aA:APA91bFCRGHnDXR8KXvsXLSK03v3qkU7mXZgPYFHCXbtVvTQMUwCd-w3O6k-5040PJ7CVnB368WG91Fdwx2Ts26jyjlo7ctzM9ItYTnIdi6-p85vxHCFhH-pnui5vLct4ma6jXovJd8S",
+#             "MAX_RECIPIENTS":1000,},
+#         }
+# }

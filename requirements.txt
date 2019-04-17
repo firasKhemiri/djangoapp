@@ -1,7 +1,6 @@
 django==2.2
 django_push_notifications==1.6.0
 PyMySQL==0.9.3
-push_notifications==0.1
 djangorestframework==3.9.2
 django-oauth-toolkit==1.2.0
 social-auth-app-django==3.1.0

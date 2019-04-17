@@ -26,9 +26,9 @@ from customUser.views import UserList, DetailsView, follow, unfollow, \
     PostCommentsView, DepartmentDetails, ClasseDetails, MainCoursesFeed, like_cours, unlike_cours, CoursCommentsView, \
     CommentCoursCreateView, AllEventsView, EventView, OwnEventsList, UserEventsList, MainFeedEvents, \
     EventCreateView, participate_event, unparticipate_event, CoursListView, AddProfilePic, \
-    AddCoverPic, UserFollowers, UserFollowing, CreateFCMView, see_notifs, \
-    Test, ClasseStudents, DepStudents, BranchStudents, DepBranches, BranchClasses, CategoryPubListView, \
-    CategoryEvnListView, AddPicEvent, EventUpdateView, UpdatePicPost
+    AddCoverPic, UserFollowers, UserFollowing, see_notifs, Test, ClasseStudents, DepStudents, BranchStudents, DepBranches, \
+    BranchClasses, CategoryPubListView, CategoryEvnListView, AddPicEvent, EventUpdateView, UpdatePicPost
+    # CreateFCMView,\
 
 urlpatterns = [
 
@@ -156,7 +156,7 @@ urlpatterns = [
 
     url(r'^update_cover_pic/$', AddCoverPic.as_view(), name="upload_cover_pic"),
 
-    url(r'^create_fcm/$', CreateFCMView.as_view(), name="fcm"),
+    # url(r'^create_fcm/$', CreateFCMView.as_view(), name="fcm"),
 
     url(r'^test/$', Test, name="test"),
 ]
