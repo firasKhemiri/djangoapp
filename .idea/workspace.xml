@@ -2,184 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466aa2af-dbe1-4cb8-a47f-0f0621825774" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customUser/migrations/0002_auto_20190417_0242.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/customUser/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/customUser/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0002_user_friends.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0002_user_friends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0003_auto_20170810_2028.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0003_auto_20170810_2028.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0004_auto_20170810_2108.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0004_auto_20170810_2108.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0005_user_fld.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0005_user_fld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0006_remove_user_fld.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0006_remove_user_fld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0007_auto_20170814_0142.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0007_auto_20170814_0142.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0008_auto_20170814_1515.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0008_auto_20170814_1515.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0009_auto_20170814_1519.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0009_auto_20170814_1519.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0010_auto_20170814_1520.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0010_auto_20170814_1520.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0011_auto_20170815_1445.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0011_auto_20170815_1445.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0012_comment.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0012_comment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0013_auto_20170815_2104.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0013_auto_20170815_2104.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0014_auto_20170815_2245.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0014_auto_20170815_2245.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0015_auto_20170815_2248.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0015_auto_20170815_2248.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0016_auto_20170815_2254.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0016_auto_20170815_2254.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0017_auto_20170815_2306.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0017_auto_20170815_2306.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0018_auto_20170815_2307.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0018_auto_20170815_2307.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0019_auto_20170815_2309.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0019_auto_20170815_2309.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0020_auto_20170815_2315.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0020_auto_20170815_2315.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0021_auto_20170815_2318.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0021_auto_20170815_2318.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0022_auto_20170815_2323.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0022_auto_20170815_2323.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0023_auto_20170815_2327.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0023_auto_20170815_2327.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0024_auto_20170815_2332.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0024_auto_20170815_2332.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0025_auto_20170815_2336.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0025_auto_20170815_2336.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0026_auto_20170816_0021.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0026_auto_20170816_0021.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0027_auto_20170816_0026.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0027_auto_20170816_0026.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0028_auto_20170816_0027.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0028_auto_20170816_0027.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0029_auto_20170816_0035.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0029_auto_20170816_0035.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0030_auto_20170816_0036.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0030_auto_20170816_0036.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0031_auto_20170816_0040.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0031_auto_20170816_0040.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0032_auto_20170816_0042.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0032_auto_20170816_0042.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0033_auto_20170816_0043.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0033_auto_20170816_0043.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0034_auto_20170816_0101.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0034_auto_20170816_0101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0035_auto_20170816_0104.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0035_auto_20170816_0104.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0036_auto_20170818_0103.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0036_auto_20170818_0103.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0037_remove_user_is_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0037_remove_user_is_student.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0038_auto_20170818_0210.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0038_auto_20170818_0210.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0039_auto_20170818_0219.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0039_auto_20170818_0219.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0040_auto_20170818_1224.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0040_auto_20170818_1224.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0041_auto_20170818_1506.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0041_auto_20170818_1506.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0042_conversation_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0042_conversation_message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0043_auto_20170819_2059.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0043_auto_20170819_2059.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0044_auto_20170819_2116.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0044_auto_20170819_2116.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0045_auto_20170820_1400.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0045_auto_20170820_1400.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0046_auto_20170820_1401.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0046_auto_20170820_1401.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0047_auto_20170820_1402.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0047_auto_20170820_1402.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0048_message_seen.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0048_message_seen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0049_auto_20170821_1456.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0049_auto_20170821_1456.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0050_auto_20170822_1347.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0050_auto_20170822_1347.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0051_auto_20170822_1512.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0051_auto_20170822_1512.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0052_auto_20170823_1453.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0052_auto_20170823_1453.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0053_notification_students.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0053_notification_students.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0054_auto_20170824_1304.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0054_auto_20170824_1304.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0055_auto_20170824_1531.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0055_auto_20170824_1531.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0056_auto_20170825_1446.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0056_auto_20170825_1446.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0057_auto_20170825_1446.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0057_auto_20170825_1446.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0058_schedule.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0058_schedule.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0059_fileupload.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0059_fileupload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0060_auto_20170826_1330.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0060_auto_20170826_1330.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0061_auto_20170826_1332.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0061_auto_20170826_1332.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0062_courses.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0062_courses.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0063_auto_20170826_2106.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0063_auto_20170826_2106.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0064_auto_20170827_1430.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0064_auto_20170827_1430.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0065_auto_20170827_1540.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0065_auto_20170827_1540.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0066_auto_20170827_1541.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0066_auto_20170827_1541.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0067_auto_20170830_1424.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0067_auto_20170830_1424.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0068_user_is_social.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0068_user_is_social.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0069_auto_20170907_1247.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0069_auto_20170907_1247.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0070_remove_poststat_is_liked.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0070_remove_poststat_is_liked.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0071_auto_20170907_1859.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0071_auto_20170907_1859.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0072_auto_20170908_1856.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0072_auto_20170908_1856.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0073_auto_20170911_1528.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0073_auto_20170911_1528.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0074_auto_20170925_1739.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0074_auto_20170925_1739.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0075_user_is_professor.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0075_user_is_professor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0076_auto_20170926_2101.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0076_auto_20170926_2101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0077_auto_20170926_2116.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0077_auto_20170926_2116.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0078_auto_20170927_1042.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0078_auto_20170927_1042.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0079_auto_20170927_1046.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0079_auto_20170927_1046.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0080_auto_20170929_2005.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0080_auto_20170929_2005.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0081_auto_20171001_1555.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0081_auto_20171001_1555.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0082_auto_20171003_1950.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0082_auto_20171003_1950.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0083_auto_20171003_1955.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0083_auto_20171003_1955.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0084_remove_event_participants.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0084_remove_event_participants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0085_event_participants.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0085_event_participants.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0086_auto_20171003_1958.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0086_auto_20171003_1958.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0087_auto_20171003_1958.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0087_auto_20171003_1958.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0088_auto_20171003_2000.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0088_auto_20171003_2000.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0089_auto_20171003_2001.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0089_auto_20171003_2001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0090_event_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0090_event_location.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0091_remove_schedule_departement.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0091_remove_schedule_departement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0092_auto_20171004_0613.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0092_auto_20171004_0613.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0093_auto_20171004_0616.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0093_auto_20171004_0616.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0094_auto_20171014_1300.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0094_auto_20171014_1300.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0095_auto_20171014_1301.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0095_auto_20171014_1301.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0096_user_phone.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0096_user_phone.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0097_auto_20171015_1236.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0097_auto_20171015_1236.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0098_auto_20171015_1238.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0098_auto_20171015_1238.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0099_auto_20171015_1239.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0099_auto_20171015_1239.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0100_auto_20171015_1243.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0100_auto_20171015_1243.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0101_user_first_social.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0101_user_first_social.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0102_auto_20171019_0235.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0102_auto_20171019_0235.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0103_auto_20171019_0235.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0103_auto_20171019_0235.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0104_auto_20171019_0411.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0104_auto_20171019_0411.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0105_notification_seen.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0105_notification_seen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0106_remove_notification_seen.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0106_remove_notification_seen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0107_notification_seen.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0107_notification_seen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0108_auto_20180128_0020.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0108_auto_20180128_0020.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0109_auto_20180203_1158.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0109_auto_20180203_1158.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0110_auto_20181125_2131.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0110_auto_20181125_2131.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0111_auto_20181126_0245.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0111_auto_20181126_0245.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0112_auto_20181126_0250.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0112_auto_20181126_0250.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0113_auto_20181126_0300.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0113_auto_20181126_0300.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0114_auto_20181126_2314.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0114_auto_20181126_2314.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0115_classe_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0115_classe_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0116_auto_20181127_0004.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0116_auto_20181127_0004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0117_remove_classe_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0117_remove_classe_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0118_classe_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0118_classe_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0119_auto_20181127_0012.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0119_auto_20181127_0012.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0120_remove_classe_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0120_remove_classe_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0121_classe_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0121_classe_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0122_user_belongsto.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0122_user_belongsto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0123_remove_user_belongsto.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0123_remove_user_belongsto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0124_auto_20181129_1542.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0124_auto_20181129_1542.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0125_auto_20181129_1604.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0125_auto_20181129_1604.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0126_auto_20181129_1607.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0126_auto_20181129_1607.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0127_auto_20181203_2101.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0127_auto_20181203_2101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0128_auto_20181212_1152.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0128_auto_20181212_1152.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0129_auto_20181213_2141.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0129_auto_20181213_2141.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0130_auto_20181213_2142.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0130_auto_20181213_2142.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0131_auto_20181225_1411.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0131_auto_20181225_1411.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0132_auto_20181225_1522.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0132_auto_20181225_1522.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0133_auto_20181225_1524.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0133_auto_20181225_1524.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0134_auto_20181225_1526.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0134_auto_20181225_1526.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/migrations/0135_auto_20181225_1528.py" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/0135_auto_20181225_1528.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/customUser/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customUser/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/customUser/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customUser/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/customUser/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customUser/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/customUser/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db1.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/django_push_notifications-1.6.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/api/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/api/rest_framework.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/apns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/apns_errors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/conf/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/conf/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/conf/appmodel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/conf/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/conf/legacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/gcm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/0002_auto_20160106_0850.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/0003_wnsdevice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/0004_fcm.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/0005_applicationid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/0006_webpushdevice.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/webpush.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/env/Lib/site-packages/push_notifications/wns.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db1.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db1.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +39,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/django/contrib/admin/sites.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="531">
+              <caret line="536" selection-start-line="536" selection-end-line="536" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customUser/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="103">
@@ -220,18 +80,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customUser/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1479" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customUser/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2061">
-              <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+            <state relative-caret-position="132">
+              <caret line="178" column="64" selection-start-line="178" selection-start-column="64" selection-end-line="178" selection-end-column="64" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -262,40 +122,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customUser/permissions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customUser/paginator.py">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customUser/serializers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="778" selection-start-line="778" selection-end-line="786" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customUser/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -305,6 +133,7 @@
       <find>mutable</find>
       <find>_assert_mutable</find>
       <find>GCMDevice</find>
+      <find>blank</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -314,15 +143,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/env/Lib/site-packages/django/http/request.py" />
-        <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/web.config" />
         <option value="$PROJECT_DIR$/mysite/wsgi.py" />
-        <option value="$PROJECT_DIR$/customUser/views.py" />
         <option value="$PROJECT_DIR$/customUser/admin.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/customUser/serializers.py" />
         <option value="$PROJECT_DIR$/customUser/urls.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/customUser/views.py" />
+        <option value="$PROJECT_DIR$/customUser/models.py" />
       </list>
     </option>
   </component>
@@ -431,12 +261,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555446477943</updated>
       <workItem from="1555446495714" duration="1657000" />
-      <workItem from="1555448394560" duration="8999000" />
+      <workItem from="1555448394560" duration="9710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10656000" />
+    <option name="totallyTimeSpent" value="11367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -488,13 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -516,16 +339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customUser/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="1156" column="42" selection-start-line="1156" selection-start-column="42" selection-end-line="1156" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -561,6 +374,14 @@
     <entry file="file://$PROJECT_DIR$/customUser/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customUser/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1479" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/customUser/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -571,13 +392,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customUser/models.py">
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2061">
-          <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+        <state relative-caret-position="225">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/django/contrib/admin/sites.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="536" selection-start-line="536" selection-end-line="536" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customUser/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="122" column="50" selection-start-line="122" selection-start-column="50" selection-end-line="122" selection-end-column="50" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -591,9 +426,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customUser/migrations/0001_initial.py">
+    <entry file="file://$PROJECT_DIR$/customUser/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479" />
+        <state relative-caret-position="132">
+          <caret line="178" column="64" selection-start-line="178" selection-start-column="64" selection-end-line="178" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

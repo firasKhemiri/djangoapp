@@ -25,8 +25,9 @@ from customUser.serializers import UserSerializer, \
     CommentaireSerializer, ProfileSerializer, MessageSerializer, \
     ConversationSerializer, PostSerializer, CategorySerializer, NotifSerializer, SuggestSerializer, CoursesSerializer, \
     DepSerializer, ScheduleSerializer, EventSerializer, PostCreateSerializer, ScUserSerializer, ClasseSerializer, \
-    PendingSerializer, CreateUserSerializer, FCMSerializer, ClasseSerializerMin, BranchSerializer, EventSerializerMin, \
+    PendingSerializer, CreateUserSerializer, ClasseSerializerMin, BranchSerializer, EventSerializerMin, \
     EventCreateSerializer
+    # ,FCMSerializer
 
 
 @api_view(['PATCH', 'PUT'])
@@ -111,11 +112,11 @@ class CreateUserView(generics.CreateAPIView):
     permission_classes = []
     serializer_class = CreateUserSerializer
 
-
-class CreateeFCMView(generics.CreateAPIView):
-    authentication_classes = []
-    permission_classes = []
-    serializer_class = FCMSerializer
+#
+# class CreateeFCMView(generics.CreateAPIView):
+#     authentication_classes = []
+#     permission_classes = []
+#     serializer_class = FCMSerializer
 
 #
 # class CreateFCMView(APIView):
