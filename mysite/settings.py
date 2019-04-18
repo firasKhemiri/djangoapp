@@ -97,19 +97,19 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
-    'ENGINE': 'django.db.backends.mysql',
-    'NAME': 'campus',
-    'USER': 'root',
-    'PASSWORD': '',
+    # 'ENGINE': 'django.db.backends.mysql',
+    # 'NAME': 'campus',
+    # 'USER': 'root',
+    # 'PASSWORD': '',
 
     # 'ENGINE': 'mysql.connector.django',
 
-    # "ENGINE": 'django.db.backends.postgresql',
-    # 'NAME': 'campus',
-    # 'USER': 'Firas@campus',
-    # 'PASSWORD': 'Lenovo y 530',
-    # 'HOST': 'campus.postgres.database.azure.com',
-    # 'PORT': '5432',
+    "ENGINE": 'django.db.backends.postgresql',
+    'NAME': 'campus',
+    'USER': 'Firas@campus',
+    'PASSWORD': 'Lenovo y 530',
+    'HOST': 'campus.postgres.database.azure.com',
+    'PORT': '5432',
     }
 }
 
