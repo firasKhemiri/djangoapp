@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'push_notifications',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
