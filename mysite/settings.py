@@ -51,9 +51,8 @@ INSTALLED_APPS = [
     'social_django',
     'rest_framework_social_oauth2',
     'rest_framework',
-    'push_notifications',
+    # 'push_notifications',
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -94,8 +93,8 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
     # 'ENGINE': 'django.db.backends.mysql',
@@ -105,12 +104,12 @@ DATABASES = {
 
     # 'ENGINE': 'mysql.connector.django',
 
-    # "ENGINE": 'django.db.backends.postgresql',
-    # 'NAME': 'campus',
-    # 'USER': 'Firas@campus',
-    # 'PASSWORD': 'Lenovo y 530',
-    # 'HOST': 'campus.postgres.database.azure.com',
-    # 'PORT': '5432',
+    "ENGINE": 'django.db.backends.postgresql',
+    'NAME': 'campus',
+    'USER': 'Firas@campus',
+    'PASSWORD': 'Lenovo y 530',
+    'HOST': 'campus.postgres.database.azure.com',
+    'PORT': '5432',
     }
 }
 
@@ -197,17 +196,17 @@ SOCIAL_AUTH_PIPELINE = (
 
 )
 
-PUSH_NOTIFICATIONS_SETTINGS = {
-
-        "CONFIG": "push_notifications.conf.AppConfig",
-
-        "APPLICATIONS": {
-        "my_fcm_app": {
-
-            "PLATFORM": "FCM",
-     #       "API_KEY": "AAAATEh95aA:APA91bGraYQ_U_SfJz9gMo6Ki453ziln07_F7novLo2H0XnoILe_Ezd4_5rLQe_vsGBLymSZnoDsZfPiaXI6Orr7_rY0KvzqKPJOXbYziicitvqlvtNAGGapaHkAf2eWEjfSK_0WbQWL",
-
-            "API_KEY": "AAAATEh95aA:APA91bFCRGHnDXR8KXvsXLSK03v3qkU7mXZgPYFHCXbtVvTQMUwCd-w3O6k-5040PJ7CVnB368WG91Fdwx2Ts26jyjlo7ctzM9ItYTnIdi6-p85vxHCFhH-pnui5vLct4ma6jXovJd8S",
-            "MAX_RECIPIENTS":1000,},
-        }
-}
+# PUSH_NOTIFICATIONS_SETTINGS = {
+#
+#         "CONFIG": "push_notifications.conf.AppConfig",
+#
+#         "APPLICATIONS": {
+#         "my_fcm_app": {
+#
+#             "PLATFORM": "FCM",
+#      #       "API_KEY": "AAAATEh95aA:APA91bGraYQ_U_SfJz9gMo6Ki453ziln07_F7novLo2H0XnoILe_Ezd4_5rLQe_vsGBLymSZnoDsZfPiaXI6Orr7_rY0KvzqKPJOXbYziicitvqlvtNAGGapaHkAf2eWEjfSK_0WbQWL",
+#
+#             "API_KEY": "AAAATEh95aA:APA91bFCRGHnDXR8KXvsXLSK03v3qkU7mXZgPYFHCXbtVvTQMUwCd-w3O6k-5040PJ7CVnB368WG91Fdwx2Ts26jyjlo7ctzM9ItYTnIdi6-p85vxHCFhH-pnui5vLct4ma6jXovJd8S",
+#             "MAX_RECIPIENTS":1000,},
+#         }
+# }
