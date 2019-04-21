@@ -106,9 +106,9 @@ DATABASES = {
 
     "ENGINE": 'django.db.backends.postgresql',
     'NAME': 'postgres',
-    'USER': 'firas@espritcamp-postgresqldbserver',
+    'USER': 'Firas@djangotes-postgresqldbserver',
     'PASSWORD': 'Lenovo y 530',
-    'HOST': 'espritcamp-postgresqldbserver.postgres.database.azure.com',
+    'HOST': 'djangotes-postgresqldbserver.postgres.database.azure.com',
     'PORT': '5432',
     }
 }
