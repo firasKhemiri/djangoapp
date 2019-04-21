@@ -1,6 +1,6 @@
 import datetime
 from django.contrib.auth import get_user_model
-# from push_notifications.models import GCMDevice
+from push_notifications.models import GCMDevice
 from rest_framework import serializers
 
 from customUser.models import User, Commentaire, PostStat, Message, Conversation, Category, Notification, \
@@ -776,11 +776,11 @@ class PendingSerializer(serializers.ModelSerializer):
         fields = ('id', 'user', 'date_created', 'is_professor', 'classe', 'department', 'message', 'accepted')
         read_only_fields = ('date_created',)
 
-#
-# class FCMSerializer(serializers.ModelSerializer):
-#     owner = MinUserSerializer(read_only=True)
-#
-#     class Meta:
-#         """Meta class to map serializer's fields with the model fields."""
-#         model = GCMDevice
-#         exclude = ('cloud_message_type',)
+
+class FCMSerializer(serializers.ModelSerializer):
+    owner = MinUserSerializer(read_only=True)
+
+    class Meta:
+        """Meta class to map serializer's fields with the model fields."""
+        model = GCMDevice
+        exclude = ('cloud_message_type',)

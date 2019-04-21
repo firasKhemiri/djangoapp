@@ -8,7 +8,7 @@ from django.shortcuts import render
 from django.utils.crypto import get_random_string
 from django.utils.datetime_safe import datetime
 from oauth2_provider.contrib.rest_framework import OAuth2Authentication
-# from push_notifications.models import GCMDevice
+from push_notifications.models import GCMDevice
 from rest_framework import generics, status, filters, viewsets
 from rest_framework.decorators import api_view, permission_classes, authentication_classes
 from rest_framework.parsers import MultiPartParser, FormParser, FileUploadParser
@@ -25,9 +25,8 @@ from customUser.serializers import UserSerializer, \
     CommentaireSerializer, ProfileSerializer, MessageSerializer, \
     ConversationSerializer, PostSerializer, CategorySerializer, NotifSerializer, SuggestSerializer, CoursesSerializer, \
     DepSerializer, ScheduleSerializer, EventSerializer, PostCreateSerializer, ScUserSerializer, ClasseSerializer, \
-    PendingSerializer, CreateUserSerializer, ClasseSerializerMin, BranchSerializer, EventSerializerMin, \
+    PendingSerializer, CreateUserSerializer, FCMSerializer, ClasseSerializerMin, BranchSerializer, EventSerializerMin, \
     EventCreateSerializer
-    # ,FCMSerializer
 
 
 @api_view(['PATCH', 'PUT'])
@@ -42,18 +41,18 @@ def follow(request):
 
     followed.followers.add(request.user)
 
-    # try:
-    #
-    #     device = GCMDevice.objects.get(user=followed)
-    #     device.send_message(None, extra={"type": "follow",
-    #                                      "user_id": user.id,
-    #                                      "name": "Abonnement",
-    #                                      "mass": user.first_name + " " + user.last_name + " a commencé a vous suivre",
-    #                                      "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
-    #                                      "image": user.picture, })
-    #
-    # except GCMDevice.DoesNotExist:
-    #     pass
+    try:
+
+        device = GCMDevice.objects.get(user=followed)
+        device.send_message(None, extra={"type": "follow",
+                                         "user_id": user.id,
+                                         "name": "Abonnement",
+                                         "mass": user.first_name + " " + user.last_name + " a commencé a vous suivre",
+                                         "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
+                                         "image": user.picture, })
+
+    except GCMDevice.DoesNotExist:
+        pass
 
     return Response('done')
 
@@ -112,52 +111,52 @@ class CreateUserView(generics.CreateAPIView):
     permission_classes = []
     serializer_class = CreateUserSerializer
 
-#
-# class CreateeFCMView(generics.CreateAPIView):
-#     authentication_classes = []
-#     permission_classes = []
-#     serializer_class = FCMSerializer
 
-#
-# class CreateFCMView(APIView):
-#     authentication_classes = [OAuth2Authentication]
-#     permission_classes = [IsAuthenticated]
-#
-#     def post(self, request, format=None):
-#         fcm = FCMSerializer(data=request.data)
-#         reg = self.request.POST.get('registration_id')
-#
-#         try:
-#
-#             for i in GCMDevice.objects.filter(user=self.request.user):
-#                 GCMDevice.delete(i)
-#
-#             dev = GCMDevice.objects.all().get(registration_id=reg)
-#
-#             if fcm.is_valid():
-#                 dev.active = True
-#                 dev.application_id = "my_fcm_app"
-#                 dev.user=self.request.user
-#                 dev.name = self.request.user.username
-#                 dev.cloud_message_type = "FCM"
-#
-#                 GCMDevice.save(dev)
-#             return Response("done", status=status.HTTP_201_CREATED)
-#
-#         except GCMDevice.DoesNotExist:
-#             pass
-#
-#         if fcm.is_valid():
-#             fcm.save(active = True ,application_id = "my_fcm_app", user=self.request.user, name = self.request.user.username, cloud_message_type = "FCM" ,)
-#             return Response(fcm.data, status=status.HTTP_201_CREATED)
-#
-#
-#         else:
-#             return Response(fcm.errors, status=status.HTTP_400_BAD_REQUEST)
-#
-#     def get_queryset(self):
-#         return GCMDevice.objects.filter(user=self.request.user.id).all()
-#
+class CreateeFCMView(generics.CreateAPIView):
+    authentication_classes = []
+    permission_classes = []
+    serializer_class = FCMSerializer
+
+
+class CreateFCMView(APIView):
+    authentication_classes = [OAuth2Authentication]
+    permission_classes = [IsAuthenticated]
+
+    def post(self, request, format=None):
+        fcm = FCMSerializer(data=request.data)
+        reg = self.request.POST.get('registration_id')
+
+        try:
+
+            for i in GCMDevice.objects.filter(user=self.request.user):
+                GCMDevice.delete(i)
+
+            dev = GCMDevice.objects.all().get(registration_id=reg)
+
+            if fcm.is_valid():
+                dev.active = True
+                dev.application_id = "my_fcm_app"
+                dev.user=self.request.user
+                dev.name = self.request.user.username
+                dev.cloud_message_type = "FCM"
+
+                GCMDevice.save(dev)
+            return Response("done", status=status.HTTP_201_CREATED)
+
+        except GCMDevice.DoesNotExist:
+            pass
+
+        if fcm.is_valid():
+            fcm.save(active = True ,application_id = "my_fcm_app", user=self.request.user, name = self.request.user.username, cloud_message_type = "FCM" ,)
+            return Response(fcm.data, status=status.HTTP_201_CREATED)
+
+
+        else:
+            return Response(fcm.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def get_queryset(self):
+        return GCMDevice.objects.filter(user=self.request.user.id).all()
+
 
 class UpdateProfile(generics.RetrieveUpdateDestroyAPIView):
     queryset = User.objects.all()
@@ -237,18 +236,18 @@ class CommentCreateView(generics.CreateAPIView):
 
         post.comments.add(comment)
 
-        # try:
-        #
-        #     device = GCMDevice.objects.get(user=post.owner)
-        #     device.send_message(None, extra={"type": "other",
-        #                                      "post_id": post_id,
-        #                                      "name": "commentaire",
-        #                                      "mass": user.first_name + " " + user.last_name + " a commenté votre publication",
-        #                                      "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
-        #                                      "image": user.picture, })
-        #
-        # except GCMDevice.DoesNotExist:
-        #     pass
+        try:
+
+            device = GCMDevice.objects.get(user=post.owner)
+            device.send_message(None, extra={"type": "other",
+                                             "post_id": post_id,
+                                             "name": "commentaire",
+                                             "mass": user.first_name + " " + user.last_name + " a commenté votre publication",
+                                             "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
+                                             "image": user.picture, })
+
+        except GCMDevice.DoesNotExist:
+            pass
 
 
 class CommentCoursCreateView(generics.CreateAPIView):
@@ -267,19 +266,19 @@ class CommentCoursCreateView(generics.CreateAPIView):
         cours = Courses.objects.get(id=post_id)
         cours.comments.add(comment)
 
-        #
-        # try:
-        #
-        #     device = GCMDevice.objects.get(user=cours.owner)
-        #     device.send_message(None, extra={"type": "other",
-        #                                      "post_id": post_id,
-        #                                      "name": "commentaire",
-        #                                      "mass": user.first_name + " " + user.last_name + " a commenté votre publication",
-        #                                      "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
-        #                                      "image": user.picture, })
-        #
-        # except GCMDevice.DoesNotExist:
-        #     pass
+
+        try:
+
+            device = GCMDevice.objects.get(user=cours.owner)
+            device.send_message(None, extra={"type": "other",
+                                             "post_id": post_id,
+                                             "name": "commentaire",
+                                             "mass": user.first_name + " " + user.last_name + " a commenté votre publication",
+                                             "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
+                                             "image": user.picture, })
+
+        except GCMDevice.DoesNotExist:
+            pass
 
 
 class CommentDetailsView(generics.RetrieveUpdateDestroyAPIView):
@@ -477,16 +476,16 @@ class CreateMessageView(generics.CreateAPIView):
         inter.save()
         mess = serializer.save(sender=me, reciever=user, conversation=inter)
 
-        # try:
-        #
-        #     device = GCMDevice.objects.get(user=user)
-        #     device.send_message(None, extra={"type": "message", "messid": mess.id,
-        #                                                                  "name": user.first_name + " " + user.last_name,
-        #                                                                  "mass": self.request.POST.get('content')
-        #         , "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S") , "image": user.picture, "sender": me.id, "convo_id":Conversation.get_convo_id(inter)})
-        #
-        # except GCMDevice.DoesNotExist:
-        #     pass
+        try:
+
+            device = GCMDevice.objects.get(user=user)
+            device.send_message(None, extra={"type": "message", "messid": mess.id,
+                                                                         "name": user.first_name + " " + user.last_name,
+                                                                         "mass": self.request.POST.get('content')
+                , "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S") , "image": user.picture, "sender": me.id, "convo_id":Conversation.get_convo_id(inter)})
+
+        except GCMDevice.DoesNotExist:
+            pass
 
 
 
@@ -1089,18 +1088,18 @@ def like(request):
     post = PostStat.objects.get(id=id)
     post.likes.add(request.user)
 
-    # try:
-    #
-    #     device = GCMDevice.objects.get(user=post.owner)
-    #     device.send_message(None, extra={"type": "other",
-    #                                      "post_id": id,
-    #                                      "name": "like",
-    #                                      "mass": request.user.first_name + " " + request.user.last_name + " a aimé votre publication",
-    #                                      "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
-    #                                      "image": request.user.picture,})
-    #
-    # except GCMDevice.DoesNotExist:
-    #     pass
+    try:
+
+        device = GCMDevice.objects.get(user=post.owner)
+        device.send_message(None, extra={"type": "other",
+                                         "post_id": id,
+                                         "name": "like",
+                                         "mass": request.user.first_name + " " + request.user.last_name + " a aimé votre publication",
+                                         "timestamp": datetime.now().strftime("%Y-%m-%d'T'%H:%M:%S"),
+                                         "image": request.user.picture,})
+
+    except GCMDevice.DoesNotExist:
+        pass
 
     return Response('post liked')
 
@@ -1157,18 +1156,18 @@ def participate_event(request):
                # for participant in participants:
                 #    print(participant.id)
 
-                    # try:
-                    #     device = GCMDevice.objects.get(user=event.owner)
-                    #
-                    #     device.send_message(None, extra={"type": "event",
-                    #                                      "post_id": event.id,
-                    #                                      "name": "Evennement complet",
-                    #                                      "mass": " Evennement " + event.name + " est complet",
-                    #                                      "timestamp": datetime.now().strftime(
-                    #                                          "%Y-%m-%d'T'%H:%M:%S"),
-                    #                                      "image": event.picture_url, })
-                    # except GCMDevice.DoesNotExist:
-                    #     pass
+                    try:
+                        device = GCMDevice.objects.get(user=event.owner)
+
+                        device.send_message(None, extra={"type": "event",
+                                                         "post_id": event.id,
+                                                         "name": "Evennement complet",
+                                                         "mass": " Evennement " + event.name + " est complet",
+                                                         "timestamp": datetime.now().strftime(
+                                                             "%Y-%m-%d'T'%H:%M:%S"),
+                                                         "image": event.picture_url, })
+                    except GCMDevice.DoesNotExist:
+                        pass
 
 
             return Response('participated')

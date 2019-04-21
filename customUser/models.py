@@ -176,7 +176,7 @@ class User(AbstractUser):
     picture = models.CharField(max_length=255, blank=True)
     cover_picture = models.CharField(max_length=255, blank=True)
 
-    phone = models.CharField(max_length=8, blank=True, null=True)
+    phone = models.CharField(max_length=8, blank=True,null=True)
 
     following = models.ManyToManyField('self', related_name="who_follows", symmetrical=False, blank=True)
     followers = models.ManyToManyField('self', related_name="who_is_followed", symmetrical=False, blank=True)
