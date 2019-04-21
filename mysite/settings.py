@@ -105,10 +105,10 @@ DATABASES = {
     # 'ENGINE': 'mysql.connector.django',
 
     "ENGINE": 'django.db.backends.postgresql',
-    'NAME': 'campus',
-    'USER': 'Firas@campus',
+    'NAME': 'postgres',
+    'USER': 'firas@espritcamp-postgresqldbserver',
     'PASSWORD': 'Lenovo y 530',
-    'HOST': 'campus.postgres.database.azure.com',
+    'HOST': 'espritcamp-postgresqldbserver.postgres.database.azure.com',
     'PORT': '5432',
     }
 }
